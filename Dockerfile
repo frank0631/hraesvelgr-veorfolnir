@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends build-essential
+RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends build-essential curl
 RUN sudo apt-get update && sudo apt-get install -y perl
 RUN curl -L http://cpanmin.us | perl - --sudo App::cpanminus
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash -x
 
 MYSQL_HOST=${MYSQL_HOST:-db}
 MYSQL_USER=${MYSQL_USER:-root}

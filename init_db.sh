@@ -1,4 +1,5 @@
-#!/usr/bin/env bash -x
+#!/usr/bin/env bash
+set -o xtrace
 
 MYSQL_HOST=${MYSQL_HOST:-db}
 MYSQL_USER=${MYSQL_USER:-root}
